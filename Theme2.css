@@ -1,0 +1,158 @@
+body {
+	background-image: url(background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 0 5%;	
+	font-family: arial, verdana, sans-serif;
+	margin-top: 0px;
+}
+
+header {
+	width: 100%;
+	height: 200px;
+}
+
+header div h1 {
+	color: white;
+}
+
+main {
+	width: 100%;
+}
+
+.box-container {
+	width: 100%;
+}
+
+.box{
+	background-color: orange;
+	display:inline-block;
+	width:200px;
+	height:200px;
+	float:left;
+	clear: right;
+	text-align: center;
+	padding: 50px 10px;
+	box-sizing: border-box;
+}
+
+.box1 {
+	background-color: orange;
+	width:200px;
+	height:200px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 15px;
+	/*display: inline-block;*/
+}
+
+.box1> img {
+	width: 65%;
+}
+
+#services> img:hover {
+	width: 65%;
+	content: url(lampadina2.png);
+}
+
+
+.box1> p {
+	font-size: 20px;
+}
+
+.box1> p:hover {
+	font-size: 25px;
+	color: #E23E18;
+}
+
+.text {
+	width: 600px;
+	height: auto;
+	background-color: transparent;
+	float: left;
+	text-align: right;
+	color: #E23E18;
+	padding-right: 20px;
+}
+
+.box2 {
+	background-color: transparent;
+	width:200px;
+	height:200px;
+	float: left;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+.box2:nth-child(1) {
+	background-color: transparent;
+}
+
+.box2 img {
+	width: 60%;
+}
+
+.boxfoto {
+	background-color: grey;
+	width:200px;
+	height:200px;
+	float: left;
+}
+
+.boxfoto:nth-child(5) {
+	background-image: url(outside4.jpg);
+	background-size: contain;
+}
+
+.boxfoto:nth-child(7) {
+	background-image: url(inside4.jpg);
+	background-size: contain;
+}
+
+.boxfoto:nth-child(8) {
+	background-image: url(inside.jpg);
+	background-size: contain;
+}
+
+.boxfoto:nth-child(7) {
+	background-image: url(outside3.jpg);
+	background-size: contain;
+}
+
+
+.boxfoto:nth-child(10) {
+    background-image: url(outside.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.boxfoto:nth-child(11) {
+	margin-left:600px;
+	background-image: url(outside2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	margin-top: 20px;
+	/*align-content: center;*/
+	text-align: center;
+	width:100%;
+	float:left;
+}
+
+footer p a {
+     color: orange;
+ }
+
+ footer p a: hover {
+     color: #E23E18;
+     font-style: normal;
+ }
+
+
+
+
